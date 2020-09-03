@@ -19,7 +19,7 @@ As you see, our sets are not well balanced (we have more images of sick patient
 In order to balance our dataset, we will use Keras to generate new consistent images from our different sets with ImageDataGenerator.
 
 The following settings will be used:
- 
+
 rescale = 1/255 (pixel normalization)
 rotation_range = 40
 width_shift_range = 0.2
@@ -32,7 +32,7 @@ horizontal_flip = true
 
 ![Alt text](images/MODEL.png?raw=true "MODEL")
 
-![Alt text](images/KERAS MODEL.png?raw=true "KERAS MODEL")
+![Alt text](images/KERAS_MODEL.png?raw=true "KERAS MODEL")
 
 ## Training
 ![Alt text](images/CNN_training_1.png?raw=true "CNN training")
